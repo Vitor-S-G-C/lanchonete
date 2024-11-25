@@ -1,0 +1,34 @@
+
+{
+  
+    "1": {
+      "id": 1,
+      "name": "Hambúrgueres arteasnal",
+      "price":22.99,
+      "category": "Lanche",
+      "imgUrl": "./public/img/hamburguere1.jpg"
+      
+    },
+    "2": {
+      "id": 2,
+      "name": "Lasanha a bolonhesa",
+      "price":44.99,
+      "category": "Almoço",
+      "imgUrl": "./public/img/lasanha1.jpg"
+    },
+    "3": {
+      "id": 3,
+      "name": "Pizzas de calabresa",
+      "price":51.99,
+      "category": "Janta",
+      "imgUrl": "./public/img/pizza1.jpg"
+    },
+    "4": {
+      "id": 4,
+      "name": "Coca-cola",
+      "price":10,
+      "category": "Bebida",
+      "imgUrl": "./public/img/bebidas2.jpg"
+}
+  
+}

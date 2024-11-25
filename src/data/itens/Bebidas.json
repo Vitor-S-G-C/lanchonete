@@ -1,0 +1,45 @@
+{
+    "bebidas": [
+      {
+        "id": 1,
+        "name": "Coca-Cola",
+        "price": 5.50,
+        "category": "bebidas",
+        "description": "Refrigerante sabor cola, clássico e refrescante.",
+        "imageUrl": "*"
+      },
+      {
+        "id": 2,
+        "name": "Guaraná Antarctica",
+        "price": 5.00,
+        "category": "bebidas",
+        "description": "Refrigerante feito com guaraná natural da Amazônia.",
+        "imageUrl": "*"
+      },
+      {
+        "id": 3,
+        "name": "Água Mineral",
+        "price": 3.00,
+        "category": "Água",
+        "description": "bebidas.",
+        "imageUrl": "/img/pizza1.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Água com Gás",
+        "price": 3.50,
+        "category": "bebidas",
+        "description": "Água mineral natural com gás.",
+        "imageUrl": "*"
+      },
+      {
+        "id": 5,
+        "name": "Suco de Laranja",
+        "price": 6.50,
+        "category": "bebidas",
+        "description": "Suco natural de laranja, sem adição de açúcar.",
+        "imageUrl": "*"
+      }
+    ]
+  }
+  

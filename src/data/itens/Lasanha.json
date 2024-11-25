@@ -1,0 +1,45 @@
+{
+    "lasanhas": [
+      {
+        "id": 1,
+        "name": "Lasanha à Bolonhesa",
+        "price": 35.00,
+        "category": "Lasanhas",
+        "description": "Lasanha com camadas de massa, molho bolonhesa e queijo gratinado.",
+        "imageUrl": "*"
+      },
+      {
+        "id": 2,
+        "name": "Lasanha de Frango com Catupiry",
+        "price": 37.00,
+        "category": "Lasanhas",
+        "description": "Lasanha de frango desfiado com catupiry e molho branco.",
+        "imageUrl": "*"
+      },
+      {
+        "id": 3,
+        "name": "Lasanha de Quatro Queijos",
+        "price": 40.00,
+        "category": "Lasanhas",
+        "description": "Lasanha com molho cremoso e uma mistura de quatro queijos.",
+        "imageUrl": "*"
+      },
+      {
+        "id": 4,
+        "name": "Lasanha Vegetariana",
+        "price": 34.00,
+        "category": "Lasanhas",
+        "description": "Lasanha com vegetais frescos, molho de tomate e queijo.",
+        "imageUrl": "*"
+      },
+      {
+        "id": 5,
+        "name": "Lasanha de Espinafre",
+        "price": 36.00,
+        "category": "Lasanhas",
+        "description": "Lasanha leve e saborosa com espinafre e molho branco.",
+        "imageUrl": "*"
+      }
+    ]
+  }
+  
