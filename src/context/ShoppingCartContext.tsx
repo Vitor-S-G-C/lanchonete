@@ -38,11 +38,10 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     (quantity: any, item: { quantity: any }) => item.quantity + quantity,
     0
   )
-
   const openCart = () => setIsOpen(true)
   const closeCart = () => setIsOpen(false)
   function getItemQuantity(id: number) {
-    return cartItems.find((item: { id: number }) => item.id === id)?.quantity || 0
+    return cartItems.find((item: { id: number }) => item.id === id)?.quantity || 0 
   }
   function increaseCartQuantity(id: number) {
     setCartItems((currItems: any[]) => {
