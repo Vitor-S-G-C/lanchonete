@@ -18,6 +18,13 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
   } = useShoppingCart()
   const quantity = getItemQuantity(id)
 
+ function formatCurrency(value: number): string {
+    return new Intl.NumberFormat("pt-BR", {
+      style: "currency",
+      currency: "BRL",
+    }).format(value);
+  }
+
   return (
     <Card className="h-100">
       <Card.Img
