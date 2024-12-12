@@ -24,7 +24,6 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
       currency: "BRL",
     }).format(value);
   }
-
   return (
     <Card className="h-100">
       <Card.Img
