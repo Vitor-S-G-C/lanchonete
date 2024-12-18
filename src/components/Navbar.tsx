@@ -8,17 +8,14 @@ export function Navbar() {
     <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
       <Container>
         <Nav className="me-auto">
-          <Nav.Link to="/" as={NavLink}>
-            Home
+          <Nav.Link to="/Lanches" as={NavLink}>
+          Lanches
           </Nav.Link>
-          <Nav.Link to="/Cardapio" as={NavLink}>
-            Cardápio
+          <Nav.Link to="/bebidas" as={NavLink}>
+          bebidas
           </Nav.Link>
           <Nav.Link to="/Login" as={NavLink}>
             Entre
-          </Nav.Link>
-          <Nav.Link to="/additemForm" as={NavLink}>
-            Adicionar Item
           </Nav.Link>
         </Nav>
         {cartQuantity > 0 && (
