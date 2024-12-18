@@ -30,7 +30,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
 
   // Converte o objeto em um array
   const storeItemsArray = Object.values(storeItems as unknown as Record<string, StoreItem>)
-
+  
   return (
     <Offcanvas show={isOpen} onHide={closeCart} placement="end">
       <Offcanvas.Header closeButton>

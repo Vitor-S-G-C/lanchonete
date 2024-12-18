@@ -22,7 +22,7 @@ interface StoreItem {
   category: string
   imgUrl: string
 }
-
+ 
 export function CartItem({ id, quantity }: CartItemProps) {
   const { removeFromCart } = useShoppingCart()
 
@@ -39,7 +39,7 @@ export function CartItem({ id, quantity }: CartItemProps) {
         src={item.imgUrl}
         alt={item.name}
         style={{ width: "125px", height: "75px", objectFit: "cover" }}
-      />
+      /> 
       <div className="me-auto">
         <div>
           {item.name}{" "}

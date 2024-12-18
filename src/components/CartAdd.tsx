@@ -80,7 +80,7 @@ export function AddItemForm() {
                 <div className="d-grid">
                   <Button variant="primary" size="lg" onClick={handleSubmit}>
                     Adicionar Item
-                  </Button>
+                  </Button> 
                 </div>
               </Form>
             </Card.Body>
