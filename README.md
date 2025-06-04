@@ -1,50 +1,88 @@
-# React + TypeScript + Vite
+🍔 Lanchonete Web App
+Aplicação desenvolvida para uma lanchonete, com o objetivo de exibir o cardápio, gerenciar pedidos e oferecer uma experiência simples, intuitiva e responsiva para os clientes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias Utilizadas
+⚛️ React – Biblioteca para construção da interface.
 
-Currently, two official plugins are available:
+🔷 TypeScript – Tipagem estática para maior segurança e organização do código.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Bootstrap – Framework CSS para estilização rápida e responsiva.
 
-## Expanding the ESLint configuration
+🌐 HTML5 – Estruturação das páginas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🎯 Funcionalidades
+✅ Visualização do cardápio com descrição, imagem e preço dos produtos.
 
-- Configure the top-level `parserOptions` property like this:
+✅ Adição de produtos ao carrinho.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+✅ Controle de quantidade de produtos no carrinho.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+✅ Cálculo automático do valor total do pedido.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+✅ Remoção de produtos do carrinho.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+✅ Layout totalmente responsivo, adaptado para desktop e mobile.
+
+🏗️ Arquitetura do Projeto
+csharp
+Copiar
+Editar
+/src
+├── components      → Componentes reutilizáveis (Navbar, Cardápio, Produto, Carrinho)
+├── context         → Contexto global para gerenciamento do carrinho
+├── data            → Dados simulados do cardápio
+├── hooks           → Hooks personalizados (ex.: useCart)
+├── page            → Páginas principais (ex.: Home, Carrinho)
+├── App.tsx         → Componente raiz da aplicação
+├── main.tsx        → Ponto de entrada da aplicação
+├── App.css         → Estilo global da aplicação
+├── index.css       → Estilo base
+└── vite-env.d.ts   → Declarações de tipos do Vite
+🛠️ Como Rodar o Projeto Localmente
+Clone o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Acesse a pasta do projeto:
+
+bash
+Copiar
+Editar
+cd nome-do-projeto
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+Execute o servidor de desenvolvimento:
+
+bash
+Copiar
+Editar
+npm run dev
+Acesse no navegador:
+
+arduino
+Copiar
+Editar
+http://localhost:5173
+🔥 Melhorias Futuras (Sugestões)
+ Implementação de tela administrativa para cadastro de produtos.
+
+ Integração com uma API para persistência dos dados.
+
+ Sistema de autenticação de usuários.
+
+ Implementar métodos de pagamento online.
+
+📸 Demonstração
+(Adicione aqui prints da aplicação ou um GIF demonstrando o funcionamento caso queira)
+
+🤝 Contribuição
+Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias.
+
+🧑‍💻 Desenvolvido por
+Vitor dos S.G.C
