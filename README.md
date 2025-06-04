@@ -8,8 +8,6 @@ Aplicação desenvolvida para uma lanchonete, com o objetivo de exibir o cardáp
 
 🎨 Bootstrap – Framework CSS para estilização rápida e responsiva.
 
-🌐 HTML5 – Estruturação das páginas.
-
 🎯 Funcionalidades
 ✅ Visualização do cardápio com descrição, imagem e preço dos produtos.
 
