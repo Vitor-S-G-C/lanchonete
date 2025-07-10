@@ -4,104 +4,104 @@
     "name": "Hamburguer simples",
     "price": 19.99,
     "category": "Lanches",
-    "imgUrl": "img/Hamburguer simples.jpg"
+    "imgUrl": "public/img/Hamburguer simples.jpg"
   },
   "2": {
     "id": 2,
     "name": "Hamburguer smash",
     "price": 24.99,
     "category": "Lanches",
-    "imgUrl": "img/Hamburguer smash.jpg"
+    "imgUrl": "public/img/Hamburguer smash.jpg"
   },
   "3": {
     "id": 3,
     "name": "Hamburguer Duplo",
     "price": 29.99,
     "category": "Lanches",
-    "imgUrl": "img/Hamburguer Duplo.jpg"
+    "imgUrl": "public/img/Hamburguer Duplo.jpg"
   },
   "4": {
     "id": 4,
     "name": "Hamburguer xtudão",
     "price": 39.99,
     "category": "Lanches",
-    "imgUrl": "img/Hamburguer xtudão.jpg"
+    "imgUrl": "public/img/Hamburguer xtudão.jpg"
   },
   "5": {
     "id": 5,
     "name": "Hamburguer vegano",
     "price": 35.99,
     "category": "Lanches",
-    "imgUrl": "img/Hamburguer vegano.jpg"
+    "imgUrl": "public/img/Hamburguer vegano.jpg"
   },
   "6": {
     "id": 6,
     "name": "Pizza de Calabresa",
     "price": 39.99,
     "category": "Lanches",
-    "imgUrl": "img/Pizza de Calabresa.jpg"
+    "imgUrl": "public/img/Pizza de Calabresa.jpg"
   },
   "7": {
     "id": 7,
     "name": "Pizza Quatro Queijos",
     "price": 42.99,
     "category": "Lanches",
-    "imgUrl": "img/Pizza Quatro Queijos.jpg"
+    "imgUrl": "public/img/Pizza Quatro Queijos.jpg"
   },
   "8": {
     "id": 8,
     "name": "Pizza de Frango com Catupiry",
     "price": 41.99,
     "category": "Lanches",
-    "imgUrl": "img/Pizza de Frango com Catupiry.jpg"
+    "imgUrl": "public/img/Pizza de Frango com Catupiry.jpg"
   },
   "9": {
     "id": 9,
     "name": "Pizza Portuguesa",
     "price": 43.50,
     "category": "Lanches",
-    "imgUrl": "img/Pizza Portuguesa.jpg"
+    "imgUrl": "public/img/Pizza Portuguesa.jpg"
   },
   "10": {
     "id": 10,
     "name": "Pizza Marguerita",
     "price": 38.50,
     "category": "Lanches",
-    "imgUrl": "img/Pizza Marguerita.jpg"
+    "imgUrl": "public/img/Pizza Marguerita.jpg"
   },
   "11": {
     "id": 11,
     "name": "Refrigerante Nuke-Cola",
     "price": 6.99,
     "category": "Bebidas",
-    "imgUrl": "img/Refrigerante Nuke-Cola.jpg"
+    "imgUrl": "public/img/Refrigerante Nuke-Cola.jpg"
   },
   "12": {
     "id": 12,
     "name": "Refrigerante Guaraná Antarctica",
     "price": 6.50,
     "category": "Bebidas",
-    "imgUrl": "img/Refrigerante Guaraná Antarctica.jpg"
+    "imgUrl": "public/img/Refrigerante Guaraná Antarctica.jpg"
   },
   "13": {
     "id": 13,
     "name": "Suco de Laranja Natural",
     "price": 8.99,
     "category": "Bebidas",
-    "imgUrl": "img/Suco de Laranja Natural.jpg"
+    "imgUrl": "public/img/Suco de Laranja Natural.jpg"
   },
   "14": {
     "id": 14,
     "name": "Água com Gás",
     "price": 3.99,
     "category": "Bebidas",
-    "imgUrl": "img/Água com Gás.jpg"
+    "imgUrl": "public/img/Água com Gás.jpg"
   },
   "15": {
     "id": 15,
     "name": "Chá Gelado de Limão",
     "price": 5.50,
     "category": "Bebidas",
-    "imgUrl": "img/Cha Gelado de Limão.jpg"
+    "imgUrl": "public/img/Cha Gelado de Limão.jpg"
   }
 }
