@@ -5,7 +5,7 @@ import { Bebidas} from "./page/Bebidas";
 import { Login } from "./page/Login";
 import { Navbar } from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
-import { Cadastro } from "./page/Cadastro";
+import { Cadastro } from "./page/cadastro";
 import { Senha } from "./page/senha";
 
 function App() {
