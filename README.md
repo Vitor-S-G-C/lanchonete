@@ -34,19 +34,7 @@ csharp
 ├── App.css         → Estilo global da aplicação
 ├── index.css       → Estilo base
 └── vite-env.d.ts   → Declarações de tipos do Vite
-🛠️ Como Rodar o Projeto Localmente
-Clone o repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-Acesse a pasta do projeto:
-
-cd nome-do-projeto
-Instale as dependências:
-Instalações nescessarias:
-npm install
-npm install react@latest react-dom@latest
-
-Execute o servidor de desenvolvimento:
 
 Acesse no navegador:
 http://localhost:5173
