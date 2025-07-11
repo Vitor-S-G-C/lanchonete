@@ -37,8 +37,9 @@ csharp
 
 
 Acesse no navegador:
-http://localhost:5173
-🔥 Melhorias Futuras (Sugestões)
+ http://localhost:5173
+
+Melhorias Futuras (Sugestões)
  Implementação de tela administrativa para cadastro de produtos.
 
 🧑‍💻 Desenvolvido por
