@@ -20,7 +20,7 @@ export function Login() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert("Login feito com sucesso!");
-    // Aqui você pode adicionar a lógica de autenticação
+    // lembrar de adicionar a autentificação
     setFormData({ email: "", senha: "" });
   };
 
@@ -114,3 +114,4 @@ export function Login() {
     </div>
   );
 }
+
